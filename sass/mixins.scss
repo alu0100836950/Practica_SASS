@@ -17,6 +17,6 @@
 
 @mixin subtitle($color, $size) {
     color: $color;
-    font-family: $title_font;
+    font-family: $subtitle_font;
     font-size: $size;
 }

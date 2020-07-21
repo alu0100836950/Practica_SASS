@@ -18,21 +18,21 @@
 .subcontainer4 {
   background-color: #ececec; }
 
-.logo {
-  width: 150px;
-  height: 150px;
-  background-image: url("../img/logo_.png");
-  background-repeat: no-repeat;
-  background-size: contain; }
-
 h1 {
   color: #30475e;
-  font-family: "Bradley Hand", bold;
+  font-family: Courier, monospace;
   font-size: 45px;
   position: relative;
   margin-top: -20px; }
 
 h3 {
   color: #ececec;
-  font-family: "Bradley Hand", bold;
+  font-family: "Consolas", monospace;
   font-size: 22px; }
+
+.logo {
+  width: 150px;
+  height: 150px;
+  background-image: url("../img/logo_.png");
+  background-repeat: no-repeat;
+  background-size: contain; }

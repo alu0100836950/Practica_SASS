@@ -21,18 +21,7 @@
     
 }
 
-.logo{
 
-    
-    width: $width_logo;
-    height: $height_logo;
-    background-image: url("../img/logo_.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-
-
-
-}
 
 h1{
 
@@ -48,4 +37,13 @@ h3{
 }
 
 
+.logo{
+
+    width: $width_logo;
+    height: $height_logo;
+    background-image: url("../img/logo_.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
   
