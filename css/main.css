@@ -1,0 +1,38 @@
+.container, .subcontainer1, .subcontainer2, .subcontainer3, .subcontainer4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.subcontainer1 {
+  background-color: #222831;
+  height: 280px; }
+
+.subcontainer2 {
+  background-color: #30475e; }
+
+.subcontainer3 {
+  background-color: #C1A57B; }
+
+.subcontainer4 {
+  background-color: #ececec; }
+
+.logo {
+  width: 150px;
+  height: 150px;
+  background-image: url("../img/logo_.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+h1 {
+  color: #30475e;
+  font-family: "Bradley Hand", bold;
+  font-size: 45px;
+  position: relative;
+  margin-top: -20px; }
+
+h3 {
+  color: #ececec;
+  font-family: "Bradley Hand", bold;
+  font-size: 22px; }

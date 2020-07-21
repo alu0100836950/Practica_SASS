@@ -1,0 +1,22 @@
+@import "variables";
+
+
+@mixin position_center($position) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $position;
+}
+
+@mixin title($color, $size) {
+    
+    color: $color;
+    font-family: $title_font;
+    font-size: $size;
+}
+
+@mixin subtitle($color, $size) {
+    color: $color;
+    font-family: $title_font;
+    font-size: $size;
+}

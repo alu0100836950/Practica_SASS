@@ -1,0 +1,51 @@
+@import "variables";
+@import "mixins";
+
+
+.container{
+
+    width: $width_div;
+    @include position_center(column);
+}
+
+@for $i from 1 through 4{
+    
+    .#{subcontainer}#{$i}{
+        @extend .container;
+
+        background-color: nth($colors, $i);
+        @if($i == 1){
+            height: $height_subcontainer;
+        }
+    }
+    
+}
+
+.logo{
+
+    
+    width: $width_logo;
+    height: $height_logo;
+    background-image: url("../img/logo_.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+
+}
+
+h1{
+
+    @include title(#30475e, 45px);
+    position: relative;
+    margin-top: -20px;
+
+}
+
+h3{
+   
+   @include subtitle(#ececec, 22px) 
+}
+
+
+  
