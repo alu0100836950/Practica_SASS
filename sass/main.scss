@@ -24,7 +24,7 @@
 
 h1{
 
-    @include title(#30475e, 450px);
+    @include title(#30475e, 60px);
     position: relative;
     margin-top: -20px;
 
@@ -52,7 +52,4 @@ h3{
 
     background-color: green;
 }
-/*.card{
-    
-    @include card-style;
-}*/
+

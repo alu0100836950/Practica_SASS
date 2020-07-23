@@ -12,7 +12,7 @@
     
     color: $color;
     font-family: $title_font;
-    font-size: $size;
+    font-size: $size !important;
 }
 
 @mixin subtitle($color, $size) {
@@ -21,10 +21,6 @@
     font-size: $size !important;
 }
 
-/*@mixin card-style {
-    
-    width: 200px;
-}*/
 
 @mixin logo {
     width: $width_logo;
@@ -35,4 +31,9 @@
     position: relative;
     top: 25px;
     right: -30px;
+}
+
+@mixin plus_icon {
+    
+
 }
