@@ -9,41 +9,50 @@
 }
 
 @for $i from 1 through 4{
+ 
+        .#{subcontainer}#{$i}{
+            @extend .container;
     
-    .#{subcontainer}#{$i}{
-        @extend .container;
-
-        background-color: nth($colors, $i);
-        @if($i == 1){
-            height: $height_subcontainer;
-        }
-    }
+            background-color: nth($colors, $i);
+            @if($i == 1){
+                height: $height_subcontainer;
+            }
+        }    
     
 }
 
 
-
 h1{
 
-    @include title(#30475e, 45px);
+    @include title(#30475e, 450px);
     position: relative;
     margin-top: -20px;
 
 }
 
+h2{
+    font-size: 45px !important;
+    font-family: $h2_font bold;
+    color: nth($colors, 1);
+}
+
 h3{
    
-   @include subtitle(#ececec, 22px) 
+   @include subtitle(#ececec, 25px) 
 }
 
 
 .logo{
 
-    width: $width_logo;
-    height: $height_logo;
-    background-image: url("../img/logo_.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+   @include logo;
 
 }
-  
+
+.icon-plus:hover{
+
+    background-color: green;
+}
+/*.card{
+    
+    @include card-style;
+}*/

@@ -17,6 +17,22 @@
 
 @mixin subtitle($color, $size) {
     color: $color;
-    font-family: $subtitle_font;
-    font-size: $size;
+    font-family: $subtitle_font !important;
+    font-size: $size !important;
+}
+
+/*@mixin card-style {
+    
+    width: 200px;
+}*/
+
+@mixin logo {
+    width: $width_logo;
+    height: $height_logo;
+    background-image: url("../img/logo_.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 25px;
+    right: -30px;
 }

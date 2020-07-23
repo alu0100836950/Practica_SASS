@@ -1,3 +1,7 @@
+/*@mixin card-style {
+    
+    width: 200px;
+}*/
 .container, .subcontainer1, .subcontainer2, .subcontainer3, .subcontainer4 {
   width: 100%;
   display: flex;
@@ -21,18 +25,34 @@
 h1 {
   color: #30475e;
   font-family: Courier, monospace;
-  font-size: 45px;
+  font-size: 450px;
   position: relative;
   margin-top: -20px; }
 
+h2 {
+  font-size: 45px !important;
+  font-family: Vegur, PT Sans, Verdana, sans-serif bold;
+  color: #222831; }
+
 h3 {
   color: #ececec;
-  font-family: "Consolas", monospace;
-  font-size: 22px; }
+  font-family: "Consolas", monospace !important;
+  font-size: 25px !important; }
 
 .logo {
   width: 150px;
   height: 150px;
   background-image: url("../img/logo_.png");
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  position: relative;
+  top: 25px;
+  right: -30px; }
+
+.icon-plus:hover {
+  background-color: green; }
+
+/*.card{
+    
+    @include card-style;
+}*/
