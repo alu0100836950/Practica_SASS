@@ -47,3 +47,15 @@ h3 {
 
 .icon-plus:hover {
   background-color: green; }
+
+.page-footer {
+  width: 100% !important;
+  background-color: #ececec !important; }
+
+.icons-social {
+  display: inline;
+  justify-content: center; }
+
+.fa {
+  font-size: 20px;
+  color: #30475e; }
