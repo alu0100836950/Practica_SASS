@@ -11,13 +11,14 @@
 
 @mixin title($color, $size) {
     
-    color: $color;
-    font-family: $title_font;
+    color: $color !important;
+    font-family: $title_font !important;
     font-size: $size !important;
+    text-align: center;
 }
 
 @mixin subtitle($color, $size) {
-    color: $color;
+    color: $color !important;
     font-family: $subtitle_font !important;
     font-size: $size !important;
 }
@@ -34,7 +35,9 @@
     right: -30px;
 }
 
-@mixin plus_icon {
+@mixin label-style {
     
-
+    font-size: 20px !important;
+    color: nth($colors, 2) !important;
+    
 }

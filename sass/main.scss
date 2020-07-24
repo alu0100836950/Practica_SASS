@@ -31,9 +31,9 @@ h1{
 }
 
 h2{
-    font-size: 45px !important;
-    font-family: $h2_font bold;
-    color: nth($colors, 1);
+
+    @include title(nth($colors, 1), 45px); 
+    
 }
 
 h3{
@@ -69,4 +69,11 @@ h3{
 .fa{
     font-size: 20px;
     color:nth($colors, 2);
+}
+
+
+label{
+
+    @include label-style;
+
 }

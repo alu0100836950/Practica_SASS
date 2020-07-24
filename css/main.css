@@ -19,19 +19,21 @@
   background-color: #ececec; }
 
 h1 {
-  color: #30475e;
-  font-family: Courier, monospace;
+  color: #30475e !important;
+  font-family: Courier, monospace !important;
   font-size: 60px !important;
+  text-align: center;
   position: relative;
   margin-top: -20px; }
 
 h2 {
+  color: #222831 !important;
+  font-family: Courier, monospace !important;
   font-size: 45px !important;
-  font-family: Vegur, PT Sans, Verdana, sans-serif bold;
-  color: #222831; }
+  text-align: center; }
 
 h3 {
-  color: #ececec;
+  color: #ececec !important;
   font-family: "Consolas", monospace !important;
   font-size: 25px !important; }
 
@@ -59,3 +61,7 @@ h3 {
 .fa {
   font-size: 20px;
   color: #30475e; }
+
+label {
+  font-size: 20px !important;
+  color: #30475e !important; }
